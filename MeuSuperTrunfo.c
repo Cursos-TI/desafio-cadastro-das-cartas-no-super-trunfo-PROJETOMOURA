@@ -29,11 +29,11 @@ int main(){
     printf("Informe o PIB: ");
     scanf("%f", &pib1);
     printf("\n");
-    printf("Carta 1 cadastrada com sucesso!\n");
+    printf("Cadastre a proxima carta\n");
     printf("\n");
     
 //Cadastro da Carta 2
-     printf("Informe o Estado: ");
+    printf("Informe o Estado: ");
     scanf("%s", estado2);
     printf("Informe o Código: ");
     scanf("%s", codigo2);
@@ -48,7 +48,7 @@ int main(){
     printf("Informe o PIB: ");
     scanf("%f", &pib2);
     printf("\n");
-    printf("Carta 2 cadastrada com sucesso!\n");
+    printf("Cadastro feito com sucesso!\n");
     printf("\n");
 //Resultado
     printf("Confira o cadastro das suas Cartas Super Trunfo\n");
