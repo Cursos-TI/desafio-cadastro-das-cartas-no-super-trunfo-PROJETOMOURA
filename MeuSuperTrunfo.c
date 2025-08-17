@@ -52,9 +52,10 @@ int main(){
     printf("\n");
 //Resultado
     printf("Confira o cadastro das suas Cartas Super Trunfo\n");
+    printf("\n");
     printf("Carta 1\n");
     printf("Estado: %s\nCódigo: %s\nCidade: %s\nPopulação: %d\nPonto Turístico: %d\nÁrea: %f\nPIB: %f\n\n", estado1, codigo1, cidade1, populacao1, p_turistico1,area1, pib1);
-    printf("Carta 2\n\n");
+    printf("Carta 2\n");
     printf("Estado: %s\nCódigo: %s\nCidade: %s\nPopulação: %d\nPonto Turístico: %d\nÁrea: %f\nPIB: %f", estado2, codigo2, cidade2, populacao2, p_turistico2,area2, pib2);
 
     return 0;
