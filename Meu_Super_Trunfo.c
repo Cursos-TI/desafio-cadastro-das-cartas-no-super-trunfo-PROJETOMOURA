@@ -7,7 +7,7 @@ int main(){
     float area1, area2, pib1, pib2;
   
 //cadastro carta 1
-    printf("\n====Carta 1====\n");
+    printf("\n=== Cadastro Carta 1 ===\n");
     printf("Informe o Código: ");
     scanf("%s", codigo1);
     printf("Informe a População: ");
@@ -23,7 +23,7 @@ int main(){
     printf("\n");
 
 //Cadastro da Carta 2
-    printf("\n====Carta 2====\n");
+    printf("\n=== Cadastro Carta 2 ===\n");
     printf("Informe o Código: ");
     scanf("%s", codigo2);
     printf("Informe a População: ");
