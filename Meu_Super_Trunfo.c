@@ -60,6 +60,5 @@ int main(){
     printf("Área total: %.2f\n", area2);
     printf("PIB: %.2f\n", pib2);
     
-    prinf("novo commit\n");
-
+   
 return 0;
