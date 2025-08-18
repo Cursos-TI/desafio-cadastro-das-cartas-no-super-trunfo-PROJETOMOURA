@@ -1,65 +1,64 @@
 #include <stdio.h>
 
 int main(){
-//variáveis
-    char estado1[2], estado2[2], codigo1[4], codigo2[4], cidade1[50], cidade2[50];
+
+    //Cadastro variáveis
+    char estado1[2], estado2[2], cidade1[50],cidade2[50], cod1[4], cod2[4];
     int populacao1, populacao2, turistico1, turistico2;
-    float area1, area2, pib1, pib2;
-  
-//cadastro carta 1
-    printf("\n=== Cadastro Carta 1 ===\n");
-    printf("Informe o Estado: ");
+    float pib1, pib2, area1, area2;
+
+//Cadastro Carta 1
+    printf("\n===== CADASTRO CARTA 1 =====\n");
+    printf("Digite o nome do Estado: \n");
     scanf("%s", estado1);
-    printf("Informe o Código: ");
-    scanf("%s", codigo1);
-    printf("Informe o Nome da Cidade: ");
+    printf("Digite o Código da Carta: \n");
+    scanf("%s", cod1);
+    printf("Digite o nome da Cidade: \n");
     scanf("%s", cidade1);
-    printf("Informe a População: ");
+    printf("Digite a População: \n");
     scanf("%d", &populacao1);
-    printf("Informe a Área: ");
-    scanf("%f", &area1);
-    printf("Informe o PIB: ");
-    scanf("%f", &pib1);
-    printf("Informe o Ponto Turístico: ");
+    printf("Digite a quantidade de Pontos Turísticos: \n");
     scanf("%d", &turistico1);
-    
-//Cadastro da Carta 2
-    printf("\n=== Cadastro Carta 2 ===\n");
-    printf("Informe o Estado: ");
+    printf("Digite a Área total: \n");
+    scanf("%f", &area1);
+    printf("Digite o valaor do PIB: \n");
+    scanf("%f", &pib1);
+    printf("\n-----------------------------\n");
+//Cadastro carta 2
+    printf("\n===== CADASTRO CARTA 2 =====\n");
+    printf("Digite o nome do Estado: \n");
     scanf("%s", estado2);
-    printf("Informe o Código: ");
-    scanf("%s", codigo2);
-    printf("Informe o Nome da Cidade: ");
+    printf("Digite o código da Carta: \n");
+    scanf("%s", cod2);
+    printf("Digite o nome da Cidade: \n");
     scanf("%s", cidade2);
-    printf("Informe a População: ");
+    printf("Digite a População: \n");
     scanf("%d", &populacao2);
-    printf("Informe a Área: ");
-    scanf("%f", &area2);
-    printf("Informe o PIB: ");
-    scanf("%f", &pib2);
-    printf("Informe o Ponto Turístico: ");
+    printf("Digite a quantidade de Pontos Turísticos: \n");
     scanf("%d", &turistico2);
-      
+    printf("Digite a Área Total: \n");
+    scanf("%f", &area2);
+    printf("Digite o PIB: \n");
+    scanf("%f", &pib2);
+    
 //Resultado
-    printf("\n==== CARTA 1 ====\n");
+    printf("\n===== CARTA 1 =====\n");
     printf("Estado: %s\n", estado1);
-    printf("Código: %s\n", codigo1);
+    printf("Código da Cidade: %s\n", cod1);
     printf("Nome da Cidade: %s\n", cidade1);
     printf("População: %d\n", populacao1);
-    printf("Área: %.2f\n", area1);
+    printf("Pontos Turísticos: %d\n", turistico1);
+    printf("Área total: %.2f\n", area1);
     printf("PIB: %.2f\n", pib1);
-    printf("Pontos turísticos: %d\n", turistico1);
 
-    printf("\n==== CARTA 2 ====\n");
+    printf("\n===== CARTA 2 =====\n");
     printf("Estado: %s\n", estado2);
-    printf("Código: %s\n", codigo2);
+    printf("Código da Cidade: %s\n", cod2);
     printf("Nome da Cidade: %s\n", cidade2);
     printf("População: %d\n", populacao2);
-    printf("Área: %.2f\n", area2);
+    printf("Pontos Turísticos: %d\n", turistico2);
+    printf("Área total: %.2f\n", area2);
     printf("PIB: %.2f\n", pib2);
-    printf("Pontos turísticos: %d\n", turistico2);
 
-    printf("novo_commit\n");
-    
-    return 0;
-}
+
+return 0;
