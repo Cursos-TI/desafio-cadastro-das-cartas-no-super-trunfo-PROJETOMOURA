@@ -3,7 +3,7 @@
 int main(){
 
 //Cadastro variáveis
-    char estado1[2], estado2[2], cidade1[50],cidade2[50], cod1[4], cod2[4];
+    char estado1[4], estado2[4], cidade1[50],cidade2[50], cod1[4], cod2[4];
     int populacao1, populacao2, turistico1, turistico2;
     float pib1, pib2, area1, area2;
 
