@@ -2,7 +2,7 @@
 
 int main(){
 //variáveis
-    char codigo1[4], codigo2[4], estado1[2], estado2[2], cidade1[50], cidade2[50];
+    char estado1[2], estado2[2], codigo1[4], codigo2[4], cidade1[50], cidade2[50];
     int populacao1, populacao2, turistico1, turistico2;
     float area1, area2, pib1, pib2;
   
@@ -22,8 +22,7 @@ int main(){
     scanf("%f", &pib1);
     printf("Informe o Ponto Turístico: ");
     scanf("%d", &turistico1);
-    printf("\nCadastro feito com sucesso!\n");
-
+    
 //Cadastro da Carta 2
     printf("\n=== Cadastro Carta 2 ===\n");
     printf("Informe o Estado: ");
@@ -40,9 +39,7 @@ int main(){
     scanf("%f", &pib2);
     printf("Informe o Ponto Turístico: ");
     scanf("%d", &turistico2);
-    printf("\n");
-    printf("Cadastro feito com sucesso!\n");
-
+      
 //Resultado
     printf("\n==== CARTA 1 ====\n");
     printf("Estado: %s\n", estado1);
@@ -62,6 +59,6 @@ int main(){
     printf("PIB: %.2f\n", pib2);
     printf("Pontos turísticos: %d\n", turistico2);
 
-
+    
     return 0;
 }
