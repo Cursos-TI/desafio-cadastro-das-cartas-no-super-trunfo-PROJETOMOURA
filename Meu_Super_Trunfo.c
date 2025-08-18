@@ -59,6 +59,7 @@ int main(){
     printf("PIB: %.2f\n", pib2);
     printf("Pontos turísticos: %d\n", turistico2);
 
+    printf("novo_commit\n");
     
     return 0;
 }
