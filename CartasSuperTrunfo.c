@@ -44,23 +44,23 @@ int main(){
     scanf("%f", &pib2);
     printf("\n-----------------------------\n");
 //Resultado
-    printf("\n===== CARTA 1 =====\n");
-    printf("Estado: %s\n",estado1);
-    printf("Código da Cidade: %s\n", cod1);
-    printf("Nome da Cidade: %s\n", cidade1);
-    printf("População: %d\n", populacao1);
-    printf("Pontos Turísticos: %d\n", turistico1);
-    printf("Área total: %.2f\n", area1);
-    printf("PIB: %.2f\n", pib1);
+    printf("\n    ===== CARTA 1 =====\n");
+    printf("Estado................: %s\n",estado1);
+    printf("Código da Cidade......: %s\n", cod1);
+    printf("Nome da Cidade........: %s\n", cidade1);
+    printf("População.............: %d\n", populacao1);
+    printf("Pontos Turísticos.....: %d\n", turistico1);
+    printf("Área total............: %.2f\n", area1);
+    printf("PIB...................: %.2f\n", pib1);
 
-    printf("\n===== CARTA 2 =====\n");
-    printf("Estado: %s\n",estado2);
-    printf("Código da Cidade: %s\n", cod2);
-    printf("Nome da Cidade: %s\n", cidade2);
-    printf("População: %d\n", populacao2);
-    printf("Pontos Turísticos: %d\n", turistico2);
-    printf("Área total: %.2f\n", area2);
-    printf("PIB: %.2f\n", pib2);
+    printf("\n    ===== CARTA 2 =====\n");
+    printf("Estado................: %s\n",estado2);
+    printf("Código da Cidade......: %s\n", cod2);
+    printf("Nome da Cidade........: %s\n", cidade2);
+    printf("População.............: %d\n", populacao2);
+    printf("Pontos Turísticos.....: %d\n", turistico2);
+    printf("Área total............: %.2f\n", area2);
+    printf("PIB...................: %.2f\n", pib2);
     
    
 return 0;
