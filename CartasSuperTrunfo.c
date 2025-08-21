@@ -8,7 +8,9 @@ int main(){
     float pib1, pib2, area1, area2;
 
 //Cadastro Carta 1
-    printf("\n //Desafio Super Trunfo// \n");
+    printf("|=======================================|\n");
+    printf("|====== *Desafio Super Trunfo* =========|\n");
+    printf("|=======================================|\n");
     printf("\n===== CADASTRO CARTA 1 =====\n");
     printf("Digite o nome do Estado: \n");
     scanf("%s", estado1);
@@ -24,8 +26,8 @@ int main(){
     scanf("%f", &area1);
     printf("Digite o valaor do PIB: \n");
     scanf("%f", &pib1);
-    printf("\n-----------------------------\n");
-
+    printf("\nPRIMEIRA CARTA CADASTRADA COM SUCESSO!\n");
+    
     //Cadastro carta 2
     printf("\n===== CADASTRO CARTA 2 =====\n");
     printf("Digite o nome do Estado: \n");
@@ -42,11 +44,12 @@ int main(){
     scanf("%f", &area2);
     printf("Digite o PIB: \n");
     scanf("%f", &pib2);
-    printf("\n-----------------------------\n");
+    printf("\nSEGUNDA CARTA CADASTRADA COM SUCESSO!\n");
+
 //Resultado
     printf("\n    ===== CARTA 1 =====\n");
+    printf("COD - %s                  \n", cod1);
     printf("Estado................: %s\n",estado1);
-    printf("Código da Cidade......: %s\n", cod1);
     printf("Nome da Cidade........: %s\n", cidade1);
     printf("População.............: %d\n", populacao1);
     printf("Pontos Turísticos.....: %d\n", turistico1);
@@ -54,8 +57,8 @@ int main(){
     printf("PIB...................: %.2f\n", pib1);
 
     printf("\n    ===== CARTA 2 =====\n");
+    printf("COD - %s                  \n", cod2);
     printf("Estado................: %s\n",estado2);
-    printf("Código da Cidade......: %s\n", cod2);
     printf("Nome da Cidade........: %s\n", cidade2);
     printf("População.............: %d\n", populacao2);
     printf("Pontos Turísticos.....: %d\n", turistico2);
