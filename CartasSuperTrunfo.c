@@ -75,7 +75,7 @@ int main(){
 
     printf("\n    ===== CARTA 2 =====\n");
    
-     printf("Estado...............: %s\n",estado2);
+    printf("Estado...............: %s\n",estado2);
     printf("COD...................: %s\n", cod2);
     printf("Nome da Cidade........: %s\n", cidade2);
     printf("População.............: %d\n", populacao2);
