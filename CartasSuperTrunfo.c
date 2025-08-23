@@ -49,13 +49,18 @@ int main(){
     scanf("%d", &turistico2);     
     
     printf("\nSEGUNDA CARTA CADASTRADA COM SUCESSO!\n");
-       
+
+    /*para imprimir o PIB per Capita em bilhão foi preciso multiplicar a variável pib por 1bilhão.
+    já que o valor atribuído tem apenas 3 digitos.
+    */ 
         densidade_p1 = (float)populacao1 / area1;
-        pib_per1 = (float)pib1 / populacao1;
+        pib_per1 = (float)pib1 * 1000000000 / populacao1;
     
         densidade_p2 = (float)populacao2 / area2;
-        pib_per2 = (float)pib2 / populacao2;
+        pib_per2 = (float)pib2 * 1000000000 / populacao2;
+
 //Resultado
+    
     printf("\n    ===== CARTA 1 =====\n");
    
     printf("Estado................: %s\n",estado1);
