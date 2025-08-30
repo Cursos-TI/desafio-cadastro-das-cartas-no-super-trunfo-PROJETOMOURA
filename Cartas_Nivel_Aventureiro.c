@@ -6,7 +6,7 @@ int main(){
     char estado1 = 'a', estado2 = 'b';
     char cod1[4], cod2[4], cidade1 [50], cidade2[50];
     int populacao1, populacao2;
-    float area1, area2, pib1, pib2; 
+    float area1, area2, pib1, pib2, densidade1, densidade2, pib_percapita1, pib_percapita2;
     int turistico1, turistico2;
         
 //Cadastro Carta 1
@@ -28,7 +28,7 @@ int main(){
     scanf("%f", &pib1);
     printf("Digite Pontos Turísticos.: ");
     scanf("%d", &turistico1);
-        
+     
     //Cadastro carta 2
     printf("\nCARTA 2\n");
     printf("Digite o Estado..........: ");
@@ -46,5 +46,16 @@ int main(){
     printf("Digite Pontos Turísticos.: ");
     scanf("%d", &turistico2);     
     
+    printf("\n    ===== CARTA 1 =====\n");
+   
+    printf("Estado................: %c\n",estado1);
+    printf("COD...................: %s\n", cod1);
+    printf("Nome da Cidade........: %s\n", cidade1);
+    printf("População.............: %ld\n", populacao1);
+    printf("Área total............: %.2f km²\n", area1);
+    printf("PIB...................: R$ %.2f bilhões de reais\n", pib1);
+    printf("Pontos Turísticos.....: %d\n", turistico1); 
+    printf("Densidade Populacional: %.2f hab/km²\n", densidade1);
+    printf("PIB per Capita........: R$ %.2f\n", pib_percapita1);
 return 0;
 }
