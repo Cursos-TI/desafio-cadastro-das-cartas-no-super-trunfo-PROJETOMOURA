@@ -46,9 +46,10 @@ int main(){
     scanf("%d", &turistico2);     
     
     printf("\n<<<<< Carta 1 >>>>>\n");
-
+    //para o calculo do Pib per Capita foi multiplicado o número por 1bilhão
+    //para que seja impreso um número em bilhão.
     densidade1 = (float)populacao1 / area1;
-    pib_percapita1 = pib1 / (float)populacao1;
+    pib_percapita1 = pib1 * 1000000000 / (float)populacao1;
     superpoder1 = (float)populacao1 + area1 + pib1 + turistico1 + pib_percapita1 + (1 / densidade1);
 
     printf("Estado................: %c\n",estado1);
@@ -62,10 +63,10 @@ int main(){
     printf("PIB per Capita........: R$ %.2f\n", pib_percapita1);
     printf("Super Poder...........: %.2f\n", superpoder1);
     printf("\n<<<<< Carta 2 >>>>>\n");
-   //calculo da densidade populacional e do Pib per capita.
    
+    //calculo da densidade populacional e do Pib per capita.
     densidade2 = (float)populacao2 / area2;
-    pib_percapita2 = pib2 / (float)populacao2;
+    pib_percapita2 = pib2 * 1000000000 / (float)populacao2;
     superpoder2 = (float)populacao2 + area2 + pib2 + turistico2 + pib_percapita2 + (1 / densidade2);
    
     printf("Estado...............: %c\n",estado2);
