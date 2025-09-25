@@ -27,7 +27,7 @@ int main(){
     printf("Digite Pontos Turísticos.: ");
     scanf("%d", &turistico1);
         
-    //Cadastro carta 2
+//Cadastro carta 2
     printf("\nCARTA 2\n");
     printf("Estado %c\n", estado2);
     printf("Digite o código..........: ");
@@ -44,9 +44,11 @@ int main(){
     scanf("%d", &turistico2);     
     
     printf("\n<<<<< Carta 1 >>>>>\n");
-    //para o calculo da densidade populacional foi dividido a população peal área.
-    //para o calculo do Pib per Capita foi multiplicado o número por 1bilhão
-    //para que seja impreso um número em bilhão.
+    
+//para o calculo da densidade populacional foi dividido a população pela área.
+//para o calculo do Pib per Capita foi multiplicado o número por 1 bilhão
+//para que seja impreso um número em bilhão.
+    
     densidade1 = (float)populacao1 / area1;
     pib_percapita1 = pib1 / (float)populacao1;
     

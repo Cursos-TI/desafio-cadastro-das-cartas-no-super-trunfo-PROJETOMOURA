@@ -4,7 +4,7 @@ int main(){
 
 //Cadastro variáveis
     char estado1 = 'A', estado2 = 'B';
-    char cod1[4], cod2[4], cidade1 [50], cidade2[50];
+    char cod1[4], cod2[4], cidade1[50], cidade2[50];
     int turistico1, turistico2;
     float area1, area2, pib1, pib2, densidade1, densidade2, pib_percapita1, pib_percapita2;
     float superpoder1, superpoder2;
@@ -29,7 +29,7 @@ int main(){
     printf("Digite Pontos Turísticos.: ");
     scanf("%d", &turistico1);
         
-    //Cadastro carta 2
+//Cadastro carta 2
     printf("\nCARTA 2\n");
     printf("Estado %c\n", estado2);
     printf("Digite o código..........: ");
@@ -46,9 +46,11 @@ int main(){
     scanf("%d", &turistico2);     
     
     printf("\n<<<<< Carta 1 >>>>>\n");
-    //para o calculo da densidade populacional foi dividido a população peal área.
-    //para o calculo do Pib per Capita foi multiplicado o número por 1bilhão
-    //para que seja impreso um número em bilhão.
+    
+//para o calculo da densidade populacional foi dividido a população pela área.
+//para o calculo do Pib per Capita foi multiplicado o número por 1bilhão
+//para que seja impreso um número em bilhão.
+
     densidade1 = (float)populacao1 / area1;
     pib_percapita1 = pib1 * 1000000000 / (float)populacao1;
     superpoder1 = (float)populacao1 + area1 + pib1 + turistico1 + pib_percapita1 + (1 / densidade1);
@@ -87,7 +89,7 @@ int main(){
     printf("Carta 1: %ld - resultado: %d\n", populacao1, populacao1 > populacao2);
     printf("Carta 2: %ld - resultado: %d\n", populacao2, populacao2 > populacao1);
 
- printf("\n*** ÁREA ***\n");
+    printf("\n*** ÁREA ***\n");
     printf("Carta 1: %.2f - Resultado: %d\n", area1, area1 > area2);
     printf("Carta 2: %.2f - Resultado: %d\n", area2, area1 < area2);
 
