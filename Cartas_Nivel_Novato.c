@@ -3,7 +3,7 @@
 int main(){
 
 //Cadastro variáveis
-    char estado1 = 'A', estado2 = 'B';
+    char estado1, estado2;
     char cod1[4], cod2[4], cidade1 [50], cidade2[50];
     int populacao1, populacao2, turistico1, turistico2;
     float area1, area2, pib1, pib2; 
@@ -13,7 +13,8 @@ int main(){
     printf("|====== *Desafio Super Trunfo* =========|\n");
     printf("|=======================================|\n");
     printf("\nCARTA 1\n");
-    printf("Estado %c\n", estado1);
+    printf("Estado...................: ");
+    scanf(" %c", &estado1);
     printf("Digite o Código..........: ");
     scanf("%s", cod1);
     printf("Digite o nome da Cidade..: ");
@@ -29,7 +30,8 @@ int main(){
         
 //Cadastro carta 2
     printf("\nCARTA 2\n");
-    printf("Estado %c\n", estado2);
+    printf("Estado...................: ");
+    scanf(" %c", &estado2);
     printf("Digite o código..........: ");
     scanf("%s", cod2);
     printf("Digite a Cidade..........: ");
